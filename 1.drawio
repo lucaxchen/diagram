@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="IfdaJqEhzuLMe_2G211S">
-    <mxGraphModel>
+    <mxGraphModel dx="877" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-1" value="BI User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3NtjgHm-Sgzl8x-YJbfk-4" target="3NtjgHm-Sgzl8x-YJbfk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-26" value="Load Data to Server RAM(Bacth)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3NtjgHm-Sgzl8x-YJbfk-25">
+          <mxGeometry x="-0.5265" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-4" value="Data Lake&lt;div&gt;(Andes)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-5" value="&lt;div&gt;Distributed Storage System&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="100" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-18" value="Data Pre-Processing Srervice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-19" value="Data Blocks" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-20" value="Data Blocks" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-21" value="Data Blocks" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-22" value="Data Blocks" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3NtjgHm-Sgzl8x-YJbfk-1" target="3NtjgHm-Sgzl8x-YJbfk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-24" value="Request Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3NtjgHm-Sgzl8x-YJbfk-23">
+          <mxGeometry x="0.2231" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3NtjgHm-Sgzl8x-YJbfk-18" target="3NtjgHm-Sgzl8x-YJbfk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-30" value="Load Data to Client Node(Streaming)&lt;div&gt;(Finished Data Validation and Permission Check)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3NtjgHm-Sgzl8x-YJbfk-27">
+          <mxGeometry x="-0.2476" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="380" as="sourcePoint" />
+            <mxPoint x="310" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3NtjgHm-Sgzl8x-YJbfk-29" value="Client Node Access" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3NtjgHm-Sgzl8x-YJbfk-28">
+          <mxGeometry x="-0.2264" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
